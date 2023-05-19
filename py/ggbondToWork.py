@@ -12,7 +12,7 @@ path = os.path.dirname(path)  # 工程目录
 ggBondProject = git.Repo.init(path)  # 初始化git仓库
 
 if is_workday(date):
-    print("%s是工作日" % date)
+    print("%s 是工作日" % date)
     remote = ggBondProject.remote()
     remote.pull()
     print("代码拉取成功")
