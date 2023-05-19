@@ -15,9 +15,10 @@ if is_workday(date):
     print(jsonJ)
     jsonFile.close()
     if jsonJ["GG"]:
-        result = os.popen(path + "/sh/ggbondTest2.sh")
+        result = os.popen(path + "/sh/offWork.sh")
         print(result.read())
     else:
         print("请假啦~~~~~")
 else:
     print("%s是休息日粗去玩~~~" % date)
+
