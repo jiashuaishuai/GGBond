@@ -12,3 +12,9 @@ Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.L
 Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.tencent.wework/.launch.LaunchSplashActivity }
 执行下班任务成功！！！！
 
+2023-05-23是工作日
+{'GG': True}
+执行下班任务中~~~
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.tencent.wework/.launch.LaunchSplashActivity }
+执行下班任务成功！！！！
+
