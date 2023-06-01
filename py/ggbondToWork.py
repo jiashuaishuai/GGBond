@@ -1,10 +1,16 @@
 import datetime
 import json
 import os
+import random
 import sys
+import time
 
 import git
 from chinese_calendar import is_workday
+
+offsetTime = random.randint(1, 6)
+print("延迟%s分钟" % offsetTime)
+time.sleep(offsetTime * 60)
 
 date = datetime.datetime.now().date()
 path = sys.path[0]  # 当前文件目录

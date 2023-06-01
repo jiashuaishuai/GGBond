@@ -1,10 +1,15 @@
-
 import datetime
 import json
 import os
+import random
 import sys
+import time
 
 from chinese_calendar import is_workday
+
+offsetTime = random.randint(1, 2)
+print("延迟%s分钟" % offsetTime)
+time.sleep(offsetTime * 60)
 path = sys.path[0]  # 当前文件目录
 path = os.path.dirname(path)  # 工程目录
 date = datetime.datetime.now().date()
@@ -21,4 +26,3 @@ if is_workday(date):
         print("请假啦~~~~~")
 else:
     print("%s是休息日粗去玩~~~" % date)
-
