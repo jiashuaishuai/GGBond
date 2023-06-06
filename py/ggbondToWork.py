@@ -8,7 +8,7 @@ import time
 import git
 from chinese_calendar import is_workday
 
-offsetTime = random.randint(5, 6)
+offsetTime = random.randint(1, 7)
 print("延迟%s分钟" % offsetTime)
 time.sleep(offsetTime * 60)
 
