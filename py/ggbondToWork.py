@@ -27,6 +27,9 @@ if is_workday(date):
     print(jsonJ)
     jsonFile.close()
     if jsonJ["GG"]:
+        delay = jsonJ["sleep"]
+        if delay > 0:
+            time.sleep(delay * 60)
         result = os.popen(path + "/sh/toWork.sh")
         print(result.read())
     else:
