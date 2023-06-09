@@ -104,3 +104,10 @@ Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.L
 Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.tencent.wework/.launch.LaunchSplashActivity }
 执行下班任务成功！！！！
 
+延迟2分钟
+2023-06-08是工作日
+{'GG': True, 'sleep': 0}
+执行下班任务中~~~
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.tencent.wework/.launch.LaunchSplashActivity }
+执行下班任务成功！！！！
+
