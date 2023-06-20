@@ -158,3 +158,10 @@ Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.L
 2023-06-17是休息日粗去玩~~~
 延迟1分钟
 2023-06-18是休息日粗去玩~~~
+延迟2分钟
+2023-06-19是工作日
+{'GG': True, 'sleep': 0}
+执行下班任务中~~~
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.tencent.wework/.launch.LaunchSplashActivity }
+执行下班任务成功！！！！
+
