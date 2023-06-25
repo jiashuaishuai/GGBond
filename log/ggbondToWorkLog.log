@@ -298,3 +298,14 @@ Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.L
 日志更新
 
 
+延迟4分钟
+2023-06-25 是工作日
+代码拉取成功
+{'GG': True, 'sleep': 0}
+执行上班任务中~~~~
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.tencent.wework/.launch.LaunchSplashActivity }
+执行上班任务成功！！！！
+
+日志更新
+
+

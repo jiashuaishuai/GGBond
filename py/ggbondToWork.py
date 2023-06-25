@@ -37,12 +37,12 @@ if is_workday(date):
 else:
     print("%s是休息日粗去玩~~~" % date)
 
-remote = ggBondProject.remote()
-ggBondProject.index.add("log")
-ggBondProject.index.add("py")
-ggBondProject.index.add("sh")
-ggBondProject.index.commit(date.__str__())
-remote.push()
+# remote = ggBondProject.remote()
+# ggBondProject.index.add("log")
+# ggBondProject.index.add("py")
+# ggBondProject.index.add("sh")
+# ggBondProject.index.commit(date.__str__())
+# remote.push()
 ggBondProject.close()
 print("日志更新")
 print("\n")
